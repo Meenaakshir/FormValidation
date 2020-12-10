@@ -50,7 +50,8 @@ class BasicForm extends React.Component {
     return (
       <form onSubmit={this.handleSubmit}>
         <div className="form-group">
-          <label htmlFor="name">Name</label>
+          <h2>User details form</h2>
+          <label htmlFor="name">Name</label>&nbsp;&nbsp;
           <input
             name="name"
             className={`form-control ${
@@ -66,7 +67,7 @@ class BasicForm extends React.Component {
           <div className="invalid-feedback">{this.state.nameError}</div>
         </div>
         <div className="form-group">
-          <label htmlFor="email">Email</label>
+          <label htmlFor="email">Email</label>&nbsp;&nbsp;
           <input
             name="email"
             className={`form-control ${
